@@ -1,0 +1,30 @@
+.card {
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform var(--transition-speed);
+  width: 220px;
+  margin: 1rem;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.textContainer h3 {
+  margin: 0 0 0.25rem 0;
+  color: var(--text-color-dark);
+  font-size: 1.1rem;
+}
+
+.textContainer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.extraContent {
+  margin-top: 0.5rem;
+}
